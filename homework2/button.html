@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Layout</title>
+  <style>
+  .wrapper{
+    text-align: center;
+    padding-top: 400px;
+  }
+  @keyframes bg{
+    from{
+      background-position-x: 0%;
+    }
+    to{
+      background-position-x: 300%;
+    }
+  }
+  button{
+    display: inline-block;
+    background: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 300px;
+    font-size: 20px;
+  }
+  button:nth-of-type(1){
+    border: 1px solid lightblue;
+  }
+  button:nth-of-type(1):hover{
+    background: skyblue 0px 0px;
+    animation: bg 5s ease-in infinite;
+  }
+  button:nth-of-type(2){
+    border: 0 none;
+    border-bottom: 1px solid lightblue;
+    margin: 0 50px;
+  }
+  button:nth-of-type(3){
+    border: 1px solid lightblue;
+  }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+      <button type="button">옆으로 채워지는 버튼</button>
+      <button type="button">밑줄이 갈라지는 버튼</button>
+      <button type="button">선이 슉슉 생기는 버튼</button>
+  </div>
+</body>
+</html>

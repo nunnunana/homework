@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>shoppingmall &lt; yuyu.com </title>
+    <link rel="stylesheet" href="./css/modules/init.css">
+    <link rel="stylesheet" href="./css/modules/grid.css">
+</head>
+<body class="">
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="row gab">
+                    <h1 class="col is-3 logo">
+                        <a href="#">유유쇼핑몰</a>
+                    </h1>
+                    <div class="col is-6 search">
+                        <form>
+                            <fieldset>
+                                <legend>검색영역</legend>
+                                <input type="text" title="검색어 입력" placeholder="검색어를 입력해 주세요">
+                                <button type="button">검색</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="col is-2 is-offset-1 link">
+                        <a href="#">회원가입</a>
+                        <a href="#">로그인</a>
+                    </div>
+                </div>
+                <nav class="row navigation">
+                    <ul class="col is-12">
+                        <li><a href="#">main</a></li>
+                        <li><a href="#">brand</a></li>
+                        <li><a href="#">speclal</a></li>
+                        <li><a href="#">outer</a></li>
+                        <li><a href="#">tops</a></li>
+                        <li><a href="#">bottom</a></li>
+                        <li><a href="#">dress</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">acc</a></li>
+                        <li><a href="#">summer</a></li>
+                        <li><a href="#">etc</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <form class="filtering">
+            <fieldset class="container">
+                <legend>필터 영역</legend>
+                <div class="row">
+                    <input type="checkbox" id="togglebox" class="a11y-hidden">
+                    <label for="tooglebox" class="btn-filtering">필터를 설정하세요</label>
+                    <dl class="show-toggle">
+                        <dt>연령대</dt>
+                        <dd>
+                            <input type="radio" id="radio-1" class="a11y-hidden"><label for="radio-1">10대</label>
+                            <input type="radio" id="radio-2" class="a11y-hidden"><label for="radio-2">20대</label>
+                            <input type="radio" id="radio-3" class="a11y-hidden"><label for="radio-3">30대</label>
+                        </dd>
+                    </dl>
+                    <dl class="show-toggle">
+                        <dt>스타일</dt>
+                        <dd>
+                            <input type="checkbox" id="checkbox-1" class="a11y-hidden"><label for="checkbox-1">소녀룩</label>
+                            <input type="checkbox" id="checkbox-2" class="a11y-hidden"><label for="checkbox-2">모던시크</label>
+                            <input type="checkbox" id="checkbox-3" class="a11y-hidden"><label for="checkbox-3">심플베이지</label>
+                            <input type="checkbox" id="checkbox-4" class="a11y-hidden"><label for="checkbox-4">로맨틱</label>
+                            <input type="checkbox" id="checkbox-5" class="a11y-hidden"><label for="checkbox-5">오피스룩</label>
+                            <input type="checkbox" id="checkbox-6" class="a11y-hidden"><label for="checkbox-6">캠퍼스룩</label>
+                            <input type="checkbox" id="checkbox-7" class="a11y-hidden"><label for="checkbox-7">빈티지</label>
+                            <input type="checkbox" id="checkbox-8" class="a11y-hidden"><label for="checkbox-8">트레이닝</label>
+                        </dd>
+                    </dl>
+                    <button type="reset">초기화</button>
+                    <button type="submit">필터 선택 완료</button>
+                </div>
+            </fieldset>
+        </form>
+        <main>
+            <div class="main-banner">
+                <h2 class="a11y-hidden">메인 베너</h2>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/banner/banner-01" alt="">
+                            <strong>
+                                득탬찬스
+                                <b>20% Sale</b>
+                            </strong>
+                            <em>
+                                <span>time sale</span>
+                                인기상품 Top100
+                            </em>
+                            <span>2016.09.22. PM8:00 ~ 8:50</span>
+                        </a>
+                        <button type="button">메인베너1</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/banner/banner-01" alt="">
+                            <strong>
+                                득탬찬스
+                                <b>20% Sale</b>
+                            </strong>
+                            <em>
+                                <span>time sale</span>
+                                인기상품 Top100
+                            </em>
+                            <span>2016.09.22. PM8:00 ~ 8:50</span>
+                        </a>
+                        <button type="button">메인베너2</button>
+                    </li>
+                </ul>
+            </div>
+
+            <section class="bestseller">
+                <h2>베스트셀러</h2>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/best-seller/bs-seller-01.jpg" alt="베스트셀러 Zemma World Puppy-코튼니트 39,000원">
+                            <p>
+                                <strong>Zemma World</strong>
+                                <span>Puppy-코튼니트</span>
+                                <em >39,000원</em>
+                            </p>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/best-seller/bs-seller-01.jpg" alt="베스트셀러 Zemma World Puppy-코튼니트 39,000원">
+                            <p>
+                                <strong>Zemma World</strong>
+                                <span>Puppy-코튼니트</span>
+                                <em >39,000원</em>
+                            </p>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/best-seller/bs-seller-01.jpg" alt="베스트셀러 Zemma World Puppy-코튼니트 39,000원">
+                            <p>
+                                <strong>Zemma World</strong>
+                                <span>Puppy-코튼니트</span>
+                                <em >39,000원</em>
+                            </p>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/best-seller/bs-seller-01.jpg" alt="베스트셀러 Zemma World Puppy-코튼니트 39,000원">
+                            <p>
+                                <strong>Zemma World</strong>
+                                <span>Puppy-코튼니트</span>
+                                <em >39,000원</em>
+                            </p>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                </ul>
+            </section>
+            <section class="brand">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span>mixxmix</span>
+                            <img src="images/brand/brand-01.jpg" alt="mixxmix관련 메인 이미지">
+                            <span>01. mixxmix</span>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>mixxmix</span>
+                            <img src="images/brand/brand-01.jpg" alt="mixxmix관련 메인 이미지">
+                            <span>01. mixxmix</span>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>mixxmix</span>
+                            <img src="images/brand/brand-01.jpg" alt="mixxmix관련 메인 이미지">
+                            <span>01. mixxmix</span>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>mixxmix</span>
+                            <img src="images/brand/brand-01.jpg" alt="mixxmix관련 메인 이미지">
+                            <span>01. mixxmix</span>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                </ul>
+                <button type="button" class="brand-prev brand-btn">이전</button>
+                <button type="button" class="brand-next brand-btn">다음</button>
+            </section>
+            <section class="new-items">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/best-seller/bs-seller-01.jpg" alt="베스트셀러 Monobable 엘렌 니트원피스 55,500원">
+                            <p>
+                                <strong>Monobable</strong>
+                                <span>엘렌 니트원피스</span>
+                                <em>55,500원</em>
+                            </p>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/best-seller/bs-seller-01.jpg" alt="베스트셀러 Monobable 엘렌 니트원피스 55,500원">
+                            <p>
+                                <strong>Monobable</strong>
+                                <span>엘렌 니트원피스</span>
+                                <em>55,500원</em>
+                            </p>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/best-seller/bs-seller-01.jpg" alt="베스트셀러 Monobable 엘렌 니트원피스 55,500원">
+                            <p>
+                                <strong>Monobable</strong>
+                                <span>엘렌 니트원피스</span>
+                                <em>55,500원</em>
+                            </p>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/best-seller/bs-seller-01.jpg" alt="베스트셀러 Monobable 엘렌 니트원피스 55,500원">
+                            <p>
+                                <strong>Monobable</strong>
+                                <span>엘렌 니트원피스</span>
+                                <em>55,500원</em>
+                            </p>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                </ul>
+            </section>
+            <section class="sister-tip">
+                <h2>언니의 팁</h2>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/tip/product-1.jpg" alt="언니가 알려주는 패션팁1">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/tip/product-1.jpg" alt="언니가 알려주는 패션팁1">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/tip/product-1.jpg" alt="언니가 알려주는 패션팁1">
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li><button type="button">메인베너1</button></li>
+                    <li><button type="button">메인베너2</button></li>
+                </ul>
+            </section>
+            <section class="best-review">
+                <h2>베스트리뷰</h2>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="images/best-review/bs-product-01.jpg" alt="가디건에 대한 상품 리뷰이미지">
+                            <p>
+                                <em>따뜻해줘 가디건</em>
+                                <span>배송은 쇼핑몰에서 입고가늦어져서 늦어졌습니다.</span>
+                                <span>31,900원</span>
+                                <strong>5점</strong>
+                            </p>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/best-review/bs-product-01.jpg" alt="가디건에 대한 상품 리뷰이미지">
+                            <p>
+                                <em>따뜻해줘 가디건</em>
+                                <span>배송은 쇼핑몰에서 입고가늦어져서 늦어졌습니다.</span>
+                                <span>31,900원</span>
+                                <strong>5점</strong>
+                            </p>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/best-review/bs-product-01.jpg" alt="가디건에 대한 상품 리뷰이미지">
+                            <p>
+                                <em>따뜻해줘 가디건</em>
+                                <span>배송은 쇼핑몰에서 입고가늦어져서 늦어졌습니다.</span>
+                                <span>31,900원</span>
+                                <strong>5점</strong>
+                            </p>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/best-review/bs-product-01.jpg" alt="가디건에 대한 상품 리뷰이미지">
+                            <p>
+                                <em>따뜻해줘 가디건</em>
+                                <span>배송은 쇼핑몰에서 입고가늦어져서 늦어졌습니다.</span>
+                                <span>31,900원</span>
+                                <strong>5점</strong>
+                            </p>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/best-review/bs-product-01.jpg" alt="가디건에 대한 상품 리뷰이미지">
+                            <p>
+                                <em>따뜻해줘 가디건</em>
+                                <span>배송은 쇼핑몰에서 입고가늦어져서 늦어졌습니다.</span>
+                                <span>31,900원</span>
+                                <strong>5점</strong>
+                            </p>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/best-review/bs-product-01.jpg" alt="가디건에 대한 상품 리뷰이미지">
+                            <p>
+                                <em>따뜻해줘 가디건</em>
+                                <span>배송은 쇼핑몰에서 입고가늦어져서 늦어졌습니다.</span>
+                                <span>31,900원</span>
+                                <strong>5점</strong>
+                            </p>
+                        </a>
+                        <button type="button">좋아요</button>
+                    </li>
+                </ul>
+            </section>
+            
+        </main>
+        <footer>
+            <ul>
+                <li><a href="#">Youyo 소개</a></li>
+                <li><a href="#">통합배송</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">이용약관,개인정보</a></li>
+            </ul>
+            <address>
+                <b>Company</b> Youyo
+                <b>대표이사</b> 이정희
+                <b>개인정보관리책임자</b> 이정희
+                <b>사업자번호</b> 123-45-67890
+                <b>통신판매업신고</b> 2016-성남분당-1234
+                <b>주소</b> 경기 성남시 분당구 판교역로 221 201호
+                <b>대표번호</b> 1234-5678
+            </address>
+            <p>Copyright&copy;2016 YOUYU Co,.Ltd.All rights reserved.</p>
+            <a href="#">
+                <em>고객센터</em> 
+                <strong>1234-5678</strong>
+                월~금 11AM~6PM
+                LUNCH 12:30~1:30PM
+            </a> 
+            <div class="sns">
+                <ul class="sns-list">
+                    <li><a href="#">wechat</a></li>
+                    <li><a href="#">taobao</a></li>
+                    <li><a href="#">facebook</a></li>
+                    <li><a href="#">weibo</a></li>
+                    <li><a href="#">instagram</a></li>
+                </ul>
+                <a href="#">유유닷컴의 파트너사 코디북</a>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/toggleGrid.js"></script>
+</body>
+</html>

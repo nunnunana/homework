@@ -1,0 +1,114 @@
+/* 나눔 스퀘어 */
+@font-face {
+  font-family: 'NanumSquareBold';
+  src: url('../../fonts/NanumSquare/NanumSquareOTFBold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumSquareExtraBold';
+  src: url('../../fonts/NanumSquare/NanumSquareOTFExtraBold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumSquareLight';
+  src: url('../../fonts/NanumSquare/NanumSquareOTFLight.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumSquareRegular';
+  src: url('../../fonts/NanumSquare/NanumSquareOTFRegular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* NotoSans */
+@font-face {
+  font-family: 'NotoSansBlack';
+  src: url('../../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Black.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSansBold';
+  src: url('../../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSansDemiLight';
+  src: url('../../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-DemiLight.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSansLight';
+  src: url('../../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSansMedium';
+  src: url('../../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Medium.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSansRegular';
+  src: url('../../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSansThin';
+  src: url('../../fonts/NotoSansCJKkr-hinted/NotoSansCJKkr-Thin.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSansMonoBold';
+  src: url('../../fonts/NotoSansCJKkr-hinted/NotoSansMonoCJKkr-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSansMonoRegular';
+  src: url('../../fonts/NotoSansCJKkr-hinted/NotoSansMonoCJKkr-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Spoqa Han Sans*/
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 700;
+    src: local('Spoqa Han Sans Bold'),
+    url('https://cdn.rawgit.com/spoqa/spoqa-han-sans/212c9818/Subset/SpoqaHanSans/Spoqa%20Han%20Sans%20Bold.woff2') format('woff2'),
+    url('https://cdn.rawgit.com/spoqa/spoqa-han-sans/212c9818/Subset/SpoqaHanSans/Spoqa%20Han%20Sans%20Bold.woff') format('woff'),
+    url('https://cdn.rawgit.com/spoqa/spoqa-han-sans/212c9818/Subset/SpoqaHanSans/Spoqa%20Han%20Sans%20Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 400;
+    src: local('Spoqa Han Sans Regular'),
+    url('https://cdn.rawgit.com/spoqa/spoqa-han-sans/212c9818/Subset/SpoqaHanSans/Spoqa%20Han%20Sans%20Regular.woff2') format('woff2'),
+    url('https://cdn.rawgit.com/spoqa/spoqa-han-sans/212c9818/Subset/SpoqaHanSans/Spoqa%20Han%20Sans%20Regular.woff') format('woff'),
+    url('https://cdn.rawgit.com/spoqa/spoqa-han-sans/212c9818/Subset/SpoqaHanSans/Spoqa%20Han%20Sans%20Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 300;
+    src: local('Spoqa Han Sans Light'),
+    url('https://cdn.rawgit.com/spoqa/spoqa-han-sans/212c9818/Subset/SpoqaHanSans/Spoqa%20Han%20Sans%20Light.woff2') format('woff2'),
+    url('https://cdn.rawgit.com/spoqa/spoqa-han-sans/212c9818/Subset/SpoqaHanSans/Spoqa%20Han%20Sans%20Light.woff') format('woff'),
+    url('https://cdn.rawgit.com/spoqa/spoqa-han-sans/212c9818/Subset/SpoqaHanSans/Spoqa%20Han%20Sans%20Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 100;
+    src: local('Spoqa Han Sans Thin'),
+    url('https://cdn.rawgit.com/spoqa/spoqa-han-sans/212c9818/Subset/SpoqaHanSans/Spoqa%20Han%20Sans%20Thin.woff2') format('woff2'),
+    url('https://cdn.rawgit.com/spoqa/spoqa-han-sans/212c9818/Subset/SpoqaHanSans/Spoqa%20Han%20Sans%20Thin.woff') format('woff'),
+    url('https://cdn.rawgit.com/spoqa/spoqa-han-sans/212c9818/Subset/SpoqaHanSans/Spoqa%20Han%20Sans%20Thin.ttf') format('truetype');
+}
