@@ -1,0 +1,37 @@
+table{
+    padding: 0;
+    border-collapse: collapse;
+    border-top: 1px solid #181818;
+    border-left: 1px solid #181818;
+    
+}
+td, th{
+    padding: 10px;
+    border-bottom: 1px solid #181818;
+    border-right: 1px solid #181818;
+}
+.table1{
+    width: 1200px;
+}
+.table2{
+    width: 100%;
+}
+dl{
+    margin: 0 0 20px 0;
+}
+dt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 0;
+    overflow: hidden;
+    padding-top: 1px; 
+}
+dd{
+    margin: 0;
+    text-align: left;
+}
+dd span{
+    margin-left: 30px;
+}
